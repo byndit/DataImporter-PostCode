@@ -1,0 +1,37 @@
+﻿{
+  "id": "cb562087-f8e0-4c2f-9947-1c4ae02b8379",
+  "name": "BeyondDataImporter - Post Codes",
+  "publisher": "BEYONDIT GmbH",
+  "version": "1.0.0.0",
+  "brief": "Post Codes Importer",
+  "description": "Post Codes Importer",
+  "privacyStatement": "https://www.beyondit.gmbh/datenschutz",
+  "EULA": "https://www.beyondit.gmbh/agb",
+  "help": "https://docs.beyond365.de",
+  "url": "https://www.beyondit.gmbh",
+  "supportedLocales": ["de-DE"],
+  "dependencies": [
+    {
+      "id": "a80569a2-4dc7-42a6-8458-7fa8ee815842",
+      "name": "BeyondDataImporter",
+      "publisher": "BEYONDIT GmbH",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "21.0.0.0",
+  "application": "21.0.0.0",
+  "runtime": "10.0",
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 60010
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "features": ["TranslationFile", "NoImplicitWith"]
+}
